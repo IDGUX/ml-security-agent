@@ -1,19 +1,10 @@
-# 📦 Grundlegende Python-Bibliotheken
 numpy
 requests
 joblib
 matplotlib
-
-# 🛠 Logging und Konfigurationsmanagement
 python-dotenv
 loguru
-
-# 🤖 Machine Learning
 scikit-learn
 shap
-
-# 🗄️ Datenbank (SQLite)
 sqlite3
-
-# 🏗 Falls du Flask für eine Web-API nutzen willst (optional)
 Flask
