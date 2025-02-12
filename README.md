@@ -24,7 +24,6 @@ Das Skript überwacht den Netzwerkverkehr, erkennt **ungewöhnliches Verhalten**
 - **n8n für Webhook-Verarbeitung (optional)**  
 
 ### **2️⃣ Repository klonen**
-```bash
 git clone https://github.com/deinusername/ml-security-agent.git
 cd ml-security-agent
 
