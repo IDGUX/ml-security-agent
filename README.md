@@ -60,22 +60,6 @@ curl -H "X-API-KEY: DEIN_API_KEY" -H "Accept: application/json" \
      https://deincontroller.local/proxy/network/api/s/default/stat/sta
 
 
-🛠 Projektstruktur
-ml-security-agent/
-│── data/                        # 📦 ML-Modell & Datenbank (wird automatisch erstellt)
-│── database/                     # 📦 Datenbank-Modul
-│   ├── db.py
-│── models/                       # 🧠 Machine Learning Model
-│   ├── isolation_forest.py
-│── utils/                        # ⚙️ Hilfsfunktionen
-│   ├── config.py                 # 🛠 Zentrale Konfiguration
-│   ├── logger.py                  # 📜 Logging-Modul
-│── main.py                        # 🚀 Hauptprogramm
-│── requirements.txt               # 📜 Abhängigkeiten
-│── .gitignore                     # ❌ Ignorierte Dateien
-│── README.md                      # 📖 Projektdokumentation
-
-
 ## 🛡 Sicherheitshinweise
 Speichere deinen API-Key NICHT direkt im Code! Verwende stattdessen die .env Datei.
 Falls du Docker nutzt, stelle sicher, dass keine sensiblen Daten im Container-Log gespeichert werden.
