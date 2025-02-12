@@ -1,0 +1,33 @@
+# 🔐 Versteckte Umgebungsvariablen (niemals hochladen!)
+.env
+
+# 🛠 Virtuelle Umgebungen (Python)
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 📦 Installierte Abhängigkeiten (falls du `venv` nutzt)
+Pipfile
+Pipfile.lock
+
+# 🚀 Modelldateien & Datenbank (werden automatisch generiert)
+data/isolation_forest_model.pkl
+data/network_logs.db
+
+# 🗑️ Editor- und Systemdateien (unwichtig)
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# 🔥 Log-Dateien & Debugging
+logs/
+*.log
+*.out
+*.err
+
+# 🐳 Falls du Docker nutzt, ignoriere Volumes
+docker-compose.override.yml

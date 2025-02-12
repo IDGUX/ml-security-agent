@@ -1,0 +1,19 @@
+# 📦 Grundlegende Python-Bibliotheken
+numpy
+requests
+joblib
+matplotlib
+
+# 🛠 Logging und Konfigurationsmanagement
+python-dotenv  # Lädt API-Keys aus .env-Datei
+loguru         # Alternative zu logging (optional)
+
+# 🤖 Machine Learning
+scikit-learn
+shap
+
+# 🗄️ Datenbank (SQLite)
+sqlite3  # Normalerweise in Python enthalten
+
+# 🏗 Falls du Flask für eine Web-API nutzen willst (optional)
+Flask
